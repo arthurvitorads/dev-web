@@ -3,6 +3,11 @@
     --sidebar-close: 80px;
 }
 
+.form-control::placeholder {
+    color: #008752; /* desired color */
+    opacity: 1; /* Firefox adds a lower opacity by default */
+  }
+
 /* layout */ 
 
 .layout{
@@ -60,3 +65,4 @@
 tr{
     vertical-align: middle;
 }
+
